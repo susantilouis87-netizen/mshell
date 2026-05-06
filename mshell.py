@@ -3,11 +3,11 @@
 """  
 ================================================================================  
 MSHELL PRO - ADVANCED TERMINAL ENVIRONMENT v0.22.0  
-Developed for: Louis  
+Developed for GitHub Releases  
   
 New features in this version:  
-- rev <CMD> <COUNT> : Mengulang eksekusi perintah.  
-- see <VAR>         : Melihat nilai dari variabel.  
+- rev <CMD> <COUNT> : Repeats command with count  
+- see <VAR>         : See variable score.
 - A = see B         : Chained assignment syntax.  
 - Symmetrical UI    : Strict square edges for UI rendering.  
 - Extended Toolkit  : Hex Viewer, Text Editor, Network Scanner, RAF Simulator.  
