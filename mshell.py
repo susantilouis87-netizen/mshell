@@ -2151,7 +2151,7 @@ def main():
   
     while shell.is_running:  
         try:  
-            user = shell.db.vars.get("USER", "louis")  
+            user = shell.db.vars.get("USER")  
             path = os.getcwd().replace(os.path.expanduser("~"), "~")  
             prompt = f"{UI.G}{user}{UI.RESET}:{UI.B}{path}{UI.RESET}$ "  
             line = input(prompt)  
